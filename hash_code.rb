@@ -3,7 +3,7 @@ def value()
     quarter => "25 cents",
     dime => "10 cents",
     nickel => "5 cents",
-    penny => "1 cent"
+    penny => "1 cents"
   }
   return value_size
 end
@@ -11,7 +11,7 @@ end
 def value_converter(number)
   number = number
   answer = ""
-  change().each do |key, value|
+  letters().each do |value, key|
     unless number < key
       stuff = number / key
       things = number % key

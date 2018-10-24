@@ -1,11 +1,11 @@
 def value()
   my_hash = {
-    quarter => "25 cents",
-    dime  => "10 cents",
-    nickel => "5 cents",
-    penny => "1 cent",
+    "quarter" => "25 cents",
+    "dime"  => "10 cents",
+    "nickel" => "5 cents",
+    "penny" => "1 cent",
   }
-  return my_hash['quarter']
+  return my_hash
 end
 
 def value_converter

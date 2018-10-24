@@ -1,16 +1,16 @@
 def value()
   my_hash = {
     'quarter' => "25 cents",
-    'dime'  => "10 cents",
-    'nickel' => "5 cents",
+    dime  => "10 cents",
+    nickel => "5 cents",
     'penny' => "1 cent"
   }
   print my_hash[:quarter]
+  print my_hash[:penny]
 end
 
 def value_converter(number)
   number = number
-  answer = "[key]"
 end
 
 # def value_converter(number)

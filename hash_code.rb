@@ -5,24 +5,28 @@ def value()
     'nickel' => "5 cents",
     'penny' => "1 cent"
   }
-  print my_hash['quarter']
+  print my_hash[:quarter]
 end
-value()
 
 def value_converter(number)
   number = number
-  answer = ""
-  change.each do |value, key|
-    unless number < key
-      stuff = number / key
-      things = number % key
-      if stuff > 0
-        stuff.times do
-          answer << value
-        end
-        number = things
-      end
-    end
-  end
-  return answer
+  answer = "[key]"
 end
+
+# def value_converter(number)
+#   number = number
+#   answer = ""
+#   change.each do |key, value|
+#     unless number < key
+#       stuff = number / key
+#       things = number % key
+#       if stuff > 0
+#         stuff.times do
+#           answer << value
+#         end
+#         number = things
+#       end
+#     end
+#   end
+#   return answer
+# end

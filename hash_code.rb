@@ -11,7 +11,7 @@ end
 def value_converter(number)
   number = number
   answer = ""
-  letters().each do |value, key|
+  include?().each do |value, key|
     unless number < key
       stuff = number / key
       things = number % key

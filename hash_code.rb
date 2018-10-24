@@ -1,12 +1,13 @@
 def value()
   my_hash = {
-    :quarter => "25 cents",
-    # "dime"  => "10 cents",
-    # "nickel" => "5 cents",
-    # "penny" => "1 cent",
+    'quarter' => "25 cents",
+    'dime'  => "10 cents",
+    'nickel' => "5 cents",
+    'penny' => "1 cent"
   }
-  return my_hash
+  print my_hash['quarter']
 end
+value()
 
 def value_converter(number)
   number = number

@@ -8,5 +8,8 @@ class My_test < Minitest::Test
   def test_for_value
     assert_equal("25 cents", value_converter(quarter))
   end
+  def test_for_value_again
+    assert_equal(quarter, value_converter("25 cents"))
+  end
 
 end

@@ -6,7 +6,7 @@ class My_test < Minitest::Test
     assert_equal(1,1)
   end
   def test_that_works
-    assert_equal("25 cents", value_converter('quarter'))
+    assert_equal('quarter', value_converter("25 cents"))
   end
   # def test_for_quarter
   #   assert_equal("25 cents", value_converter('quarter'))

@@ -6,15 +6,16 @@ def value()
     'penny' => "1 cent"
   }
   end
-print {:quarter}
+return [':quarter']
 
 
 
-def value_converter(number)
-  number = number
+def value_converter(value)
+  value == change
+    
   
 end
-
+print 'answer'
 # def value_converter(number)
 #   number = number
 #   answer = ""

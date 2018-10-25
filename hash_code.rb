@@ -5,12 +5,13 @@ def value()
     nickel => "5 cents",
     'penny' => "1 cent"
   }
-  print my_hash[:quarter]
-  print my_hash[:penny]
 end
+returns my_hash
+
 
 def value_converter(number)
   number = number
+  
 end
 
 # def value_converter(number)
